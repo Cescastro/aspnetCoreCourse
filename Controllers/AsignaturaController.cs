@@ -10,7 +10,25 @@ public class AsignaturaController : Controller
         var Asignatura = new Asignatura();
         Asignatura.Nombre = "Programacion";
 
-        return View(Asignatura);
+        var listaAsignaturas = new List<Asignatura> () {
+            new Asignatura {
+            Nombre = "Matemáticas"
+            },
+            new Asignatura {
+            Nombre = "Educación Física"
+            },
+            new Asignatura {
+            Nombre = "Castellano"
+            },
+            new Asignatura {
+            Nombre = "Ciencias Naturales"
+            },
+            new Asignatura {
+            Nombre = "Programacion"
+            },
+        };
+
+        return View(listaAsignaturas);
     }
 
 }

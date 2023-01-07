@@ -16328,6 +16328,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Asignatura copy\\Index.cshtml",
+      "TargetPath": "Views\\Asignatura copy\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Shared\\_ObjEscuelaSimple.cshtml",
+      "TargetPath": "Views\\Shared\\_ObjEscuelaSimple.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
