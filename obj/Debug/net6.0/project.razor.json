@@ -16323,6 +16323,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Asignatura\\Index.cshtml",
+      "TargetPath": "Views\\Asignatura\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

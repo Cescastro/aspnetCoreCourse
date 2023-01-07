@@ -4,7 +4,14 @@
     ViewData["Title"] = "Escuela Index";
 }
 
-<div class="text-center">
+<div class="text-left">
     <h1 class="display-4">Escuela: @Model.Nombre </h1>
-    <h3>Desde @Model.annoFundacion</h3>
+    <h2>Tipo de Escuela: @Model.TipoEscuela</h2>
+    <address>
+        <p>@Model.Pais</p>
+        <p>@Model.Ciudad</p>
+        <p>@Model.Direccion</p>
+    </address>
+    <h3>Desde @Model.AnnoDeCreacion</h3>
+    <p>@ViewBag.CualquierDato</p>
 </div>
