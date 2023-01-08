@@ -16298,6 +16298,16 @@
   "RootNamespace": "aspnetCoreCourse",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Shared\\_ObjVariasEscuelas.cshtml",
+      "TargetPath": "Views\\Shared\\_ObjVariasEscuelas.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Alumno\\Index.cshtml",
+      "TargetPath": "Views\\Alumno\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16325,11 +16335,6 @@
     {
       "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Asignatura\\Index.cshtml",
       "TargetPath": "Views\\Asignatura\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\ccastro\\source\\repos\\aspnetCoreCourse\\Views\\Asignatura copy\\Index.cshtml",
-      "TargetPath": "Views\\Asignatura copy\\Index.cshtml",
       "FileKind": "mvc"
     },
     {

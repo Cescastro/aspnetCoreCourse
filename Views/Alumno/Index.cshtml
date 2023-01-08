@@ -1,12 +1,11 @@
-﻿@model List<Asignatura>
+﻿@model List<Alumno>
 
 @{
-    ViewData["Title"] = "Asignatura Index";
+    ViewData["Title"] = "Informació de Alumnos";    
 }
+<h1>@ViewData["Title"]</h1>
 
-<div class="text-left"> 
-    @foreach (var asignatura in Model)
-    {
-        <partial name="_ObjEscuelaSimple" model="asignatura"/>        
-    }  
+<partial name="_ObjVariasEscuelas" />       
+
+    
 </div>
