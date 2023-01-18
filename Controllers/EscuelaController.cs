@@ -1,21 +1,25 @@
 using aspnetCoreCourse.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Linq;
 
 namespace aspnetCoreCourse.Controllers;
 
 public class EscuelaController : Controller
 {
+    private EscuelaContext _context;
     public IActionResult Index()
     {
-        var escuela = new Escuela("Escuela Salgar",1980);      
-        escuela.Ciudad = "Medellin";
-        escuela.Pais = "Colombia";
-        escuela.TipoEscuela = TiposEscuela.Secundaria;
-        escuela.Direccion = "Av EverGreen";
-
+       
         ViewBag.CualquierDato ="cualquier dato";
+
+        var escuela = _context.Escuelas.FirstOrDefault();
 
 
         return View(escuela);
+    }
+
+    public EscuelaController(EscuelaContext context)
+    {
+        _context = context;        
     }
 }
